@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="background-color:rgba(0, 150, 255, 0.4)">
+    
+    <h1 style="text-align:center;">Centered Heading</h1>
+    <br>
+    <figure>
+    <img src="img/gmail.jpg" alt="gmail icon" height = "200" width = "200" />
+    <figcaption>Caption</figcaption>
+    </figure>
+    <br>
+    <ahref="https://www.youtube.com/" > <abbr title="https://www.youtube.com/">YouTube</abbr></a>
+    <section>
+         <h2>Client form</h2>
+         <form method="POST" action="https://formspree.io/yaroslav.zaiats.vp.2015@gmail.com">
+            <label for="client-name">Name:</label>
+            <input type="text" placeholder="Name"
+             id="client-name" name="client-name" required>
+            <br>
+            <label>
+                Email: <input type="email" name="client-email" placeholder="Email" required>
+            </label>
+            <br>
+            <label>Gender:</label>
+            <label><input type="radio" value="male" name="gender" checked>Male</label>
+            <label><input type="radio" value="female" name="gender">Female</label>
+            <label><input type="radio" value="other" name="gender">Other</label>
+            <br>
+            <label>
+                Your comment:
+                <br>
+                <textarea name="comments"></textarea>
+            </label>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </section>
+    
+</body>
+</html>
